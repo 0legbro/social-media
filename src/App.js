@@ -1,20 +1,17 @@
 import React from 'react';
 import './App.css';
-import Header from "./Header/Header";
-import SideBar from "./SideBar/SideBar";
-import Content from "./Content/Content";
-/*import Content from "./Content/Content";
-import SideBar from "./SideBar/SideBar";
-import Footer from "./Footer/Footer";*/
+import Header from "./components/Header/Header";
+import SideBar from "./components/SideBar/SideBar";
+import Profile from "./components/Profile/Profile";
+
 
 const App = () => {
     return (
         <div className="app-wrapper">
             <Header />
             <SideBar/>
-            <Content/>
+            <Profile/>
         </div>
-
     );
 }
 
