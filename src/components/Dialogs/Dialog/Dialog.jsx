@@ -9,7 +9,6 @@ const DialogItem =(props)=>{
     return(
         <div >
             <Link className={s.dialog} to={path}> {props.name}</Link>
-
         </div>
 
 

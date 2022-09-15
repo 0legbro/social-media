@@ -4,6 +4,11 @@ import s from './MyPosts.module.css'
 import NewPost from "./NewPost/NewPost";
 
 const MyPosts = () => {
+
+    let postArray = [
+        {post: "I like this."},
+        {post: "I dislike this."}
+    ]
     return (
         <div className={s.myPosts}>
             <NewPost/>
