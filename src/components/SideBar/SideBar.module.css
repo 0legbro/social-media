@@ -18,3 +18,10 @@
 .sideBarElement:hover{
     color: gold;
 }
+.active{
+}
+
+.nav .sideBarMenu.active{
+    color: gold;
+
+}

@@ -7,7 +7,7 @@ const SideBar = () => {
 
                 <nav className={s.nav}>
                     <ul className={s.sideBarMenu}>
-                        <li><Link  className = {s.sideBarElement} to="/profile">Profile</Link></li>
+                        <li><Link  acriveClassName = {s.active} className = {s.sideBarElement} to="/profile">Profile</Link></li>
                         <li><Link className={s.sideBarElement} to="/dialogs">Messages</Link></li>
                         <li><Link className={s.sideBarElement} to="/news">News</Link></li>
                         <li><Link className={s.sideBarElement} to="/music">Music</Link></li>
