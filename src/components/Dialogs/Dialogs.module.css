@@ -1,6 +1,7 @@
 .Dialogs {
     display: flex;
     flex-wrap: nowrap;
+
 }
 
 .dialogsContent {
@@ -17,5 +18,11 @@
 }
 .dialog:hover{
     color: pink;
+
+}
+.messages{
+    padding-top: 20px;
+    flex-direction: column;
+    font-size: 20px;
 
 }

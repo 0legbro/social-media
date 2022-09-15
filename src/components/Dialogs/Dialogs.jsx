@@ -16,10 +16,13 @@ return(
             <DialogItem name="Dasha" id="5"/>
 
         </div>
-            <Message/>
-            <Message/>
-            <Message/>
-            <Message/>
+        <div className={s.messages}>
+            <Message message="Hello"/>
+            <Message message="Hello"/>
+            <Message message="Hello"/>
+            <Message message="Hello"/>
+        </div>
+
     </div>
 )
 
