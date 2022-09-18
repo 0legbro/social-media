@@ -7,7 +7,7 @@ const Post = (props) =>{
         <div className={s.post}>
             <span>
                 <img src={IMG} alt="profilePhoto"/>
-                {props.postContent}
+                {props.post}
                 <button>Delete</button>
             </span>
 
