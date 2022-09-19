@@ -3,11 +3,11 @@ import MyPosts from "./myPosts/myPosts";
 import ProfileHeader from "./profileHeader/profileHeader";
 
 const Profile = (props) => {
-        return (
+
+    return (
             <div>
                 <ProfileHeader />
-                <MyPosts posts={props.posts} />
-                {console.log(props)}
+                <MyPosts posts={props.state.posts} />
             </div>
         );
 }
