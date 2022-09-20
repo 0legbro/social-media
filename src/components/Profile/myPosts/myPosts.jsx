@@ -7,7 +7,7 @@ const MyPosts = (props) => {
     let postElement = props.posts.map(post => <Post post = {post.post}/>)
     return (
         <div className={s.myPosts}>
-            <NewPost/>
+            <NewPost addPost={props.addPost}/>
             <h3>My Posts</h3>
             {postElement}
 

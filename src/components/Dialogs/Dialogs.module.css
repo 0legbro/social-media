@@ -26,3 +26,10 @@
     font-size: 20px;
 
 }
+.messages_sendMessageArea{
+    margin-top: 40px;
+
+}
+.messages_sendMessageButton{
+    margin: -20px 0 20px 10px;
+}
